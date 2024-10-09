@@ -25,7 +25,7 @@ TheTvApp StreamScraper is an innovative server application built on Express, des
 1. Pull the Docker image from Docker Hub:
 
 ```bash
-docker pull habitual69/thetvappstream
+docker pull IrishBoiBlu/thetvappstream
 ```
 
 ### Usage
@@ -35,7 +35,7 @@ docker pull habitual69/thetvappstream
 To run the server using Docker in host network mode:
 
 ```bash
-docker run --network host habitual69/thetvappstream
+docker run --network host IrishBoiBlu/thetvappstream
 ```
 
 Upon starting, the server will fetch the necessary token and channel listings. Access the channel playlist via `http://localhost:5000/channels.m3u` and individual HLS stream URLs by visiting `http://localhost:5000/channel/{channelID}`.
@@ -45,7 +45,7 @@ Upon starting, the server will fetch the necessary token and channel listings. A
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/habitual69/thetvappstream.git
+git clone https://github.com/irishboiblu/thetvappstream.git
 cd thetvappstream
 ```
 
